@@ -1,0 +1,26 @@
+{
+    "name": "nono/utm",
+    "description": "utm php framework mvc",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruno Teboul",
+            "email": "bruno.teboul@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Utm\\": "utm/",
+            "Utm\\Plugin\\": "app/plugin/",
+            "Utm\\Controller\\": "app/controller/",
+            "Utm\\Model\\": "app/model/",
+            "Utm\\Lib\\": "app/lib/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",	
+        "twig/twig": ">=2.0"
+    }
+}

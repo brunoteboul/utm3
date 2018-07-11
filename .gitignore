@@ -1,0 +1,6 @@
+
+###> UTM ###
+/var/cache/*
+/var/twig/*
+/vendor/
+###< UTM ###
